@@ -1,0 +1,67 @@
+
+   HTML CODE -----
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./align.css">
+</head>
+<body>
+	<header>
+		Heading
+	</header>
+	<nav>
+		Navigation Bar
+	</nav>
+	<main>
+			Main Content
+	</main>
+
+	<footer>
+		footer
+	</footer>
+</body>
+</html>
+
+
+   CSS CODE ----
+
+body {
+	font-family: Arial, sans-serif;
+    border-color: black;
+    border-style: solid;
+    border-width: 4px;
+    width: 280px;
+    height: 303px;
+	margin-left: 40%;
+	margin-top: 10%;
+}
+header {
+	background-color: rgb(210, 120, 210);
+	padding: 25px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+}
+nav {
+    background-color: rgb(139, 6, 139);
+	padding: 10px;
+	text-align: center;
+    color: whitesmoke;
+}
+main {
+    display:inline-block;
+	margin-bottom: 30%;
+	padding: 20px;
+    margin-left: 80px; 
+}
+footer {
+	background-color: rgb(246, 117, 246);
+	padding: 10px; 
+	text-align: center;
+	color: black;
+   padding-top: 22px;
+}
