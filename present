@@ -1,0 +1,97 @@
+
+ HTML CODE ------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentation Style</title>
+    <link rel="stylesheet" href="./present.css">
+</head>
+<body>
+        <header>
+          Header
+        </header>
+      
+        <div class="flex-container">
+      
+          <section class="nav">
+            Nav
+          </section>
+
+          <section class="article">
+            Article
+          </section>
+  
+        <footer>
+          Footer
+        </footer>
+      
+      </body>
+      
+      </html>
+
+
+
+
+     CSS CODE ------
+
+
+* {
+  
+   text-align: center;
+  }
+  header {
+    background:rgb(248, 192, 25);
+    width: 50%;
+    padding: 10px;
+    margin-left: 20%;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 20px;
+    color: white;
+    border-radius: 2px;
+  }
+  .nav {
+    background: #4508e1;
+    color: white;
+    margin-left: 20%; 
+    float: left;
+    width: 130px;
+    height: 253px; 
+    padding: 20px;
+  }
+  .article {
+    background-color: #068917;
+    color: white;
+    float: left;
+    padding: 20px;
+    width:401px; 
+    border-radius: 2px;
+    height: 252px;
+  }
+  footer {
+    background-color:rgb(72, 6, 6);
+    width: 50%;
+    padding: 10px;
+    margin-left: 20%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    border-radius: 2px;
+  
+  } 
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  
+  
+  .flex-container {
+    display: flex;
+    height: 500px;
+  } 
+}
