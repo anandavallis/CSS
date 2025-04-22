@@ -1,0 +1,96 @@
+
+   HTML CODE ----
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./logo.css">
+</head>
+<body>
+    <h1>Logo</h1>
+        <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#serives">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></i>
+        </ul>
+    </nav>
+    </div>
+
+    <div class="container-4">
+<main>
+    Features
+</main>
+
+<div class="column one">Column One</div>
+<div class="column two">Column Two</div>
+<div class="column three">Column Three</div> 
+</div> 
+
+<footer> &copy; Copyright 2011</footer>
+</body>
+</html>
+
+CSS CODE -----
+
+*{
+    margin: 5px;
+    padding:4px;
+    padding-top: 10px; 
+    
+
+}  
+h1{
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(213, 213, 224); 
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    width: 700px;
+}
+nav{
+    background-color:rgb(213, 213, 224); 
+    color:black;
+    padding: 10px;
+    width: 700px;
+    margin: 10px; 
+    text-align: center;
+}
+ul,li{
+    display: inline;
+    background-color:  rgb(213, 213, 224); 
+    
+}
+ main{
+   background-color:rgb(213, 213, 224); 
+   color: black;
+   box-sizing: border-box; 
+   width: 720px;
+   height: 100px;
+   text-align: center;
+}
+.container-4 > div{   
+    padding: 10px;
+    /* margin: 10px; */
+    text-align: center;
+    width: 210px;
+    height: 150px;
+    display: inline-block; 
+    background-color: rgb(213, 213, 224); 
+}  
+footer{
+    padding: 15px;
+    margin: 10px;
+    background-color:rgb(213, 213, 224); 
+    color: black;
+    width: 695px;
+    text-align: center;
+}
