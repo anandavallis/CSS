@@ -1,0 +1,62 @@
+   HTML CODE ----
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./pseudo.css">
+</head>
+<body>
+    <center>
+    <h1>Button Design</h1>
+    </center>
+
+    <body>
+        <div class="grid-container">
+          <div class="box1">Header</div>
+          <div class="box2">Menu</div>
+          <div class="box3">Main</div>
+          <div class="box4">Right</div>
+          <div class="box5">Footer</div>
+        </div>
+      </body>
+    </html>
+
+
+
+    CSS CODE   ------
+
+        .grid-container {
+        display: grid;
+        grid-template-areas: 'header header header header header header' 
+        'menu main main main right right' 
+        'menu footer footer footer footer footer';
+        grid-gap: 10px;
+        background-color: rgb(37, 127, 172);
+        padding: 10px;
+      }
+      .grid-container > div {
+        background-color: #eee;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+      }
+      .box1 {
+         grid-area: header;
+       }
+       .box2 {
+         grid-area: menu;
+       }
+       .box3 {
+         grid-area: main;
+         height: 90px;
+       }
+       .box4 {
+         grid-area: right;
+       }
+       .box5 {
+         grid-area: footer;
+       }
+    
