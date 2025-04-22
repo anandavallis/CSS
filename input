@@ -1,0 +1,87 @@
+
+   HTML CODE ------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Fields</title>
+    <link rel="stylesheet" href="./input.css">
+</head>
+<body>
+    <!-- <div class="input"></div> -->
+    <header>
+        Heading
+    </header>
+    <nav>
+        Navigation Bar
+    </nav>
+    <section>
+        Left panel
+    </section>
+    <main>
+        Main content
+    </main>
+    <footer>
+        Footer
+    </footer>
+</body>
+</html>
+
+
+
+CSS CODE -----
+
+
+body{
+    font-family: Arial, sans-serif;
+    border-color: black;
+    border-style: solid;
+    border-width: 4px;
+    width: 300px;
+    height: 300px;
+     margin-left: 35%;
+     margin-top: 80px;
+}
+header{
+    background-color: rgb(249, 158, 249);
+    color: black;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+nav{
+    background-color: rgb(116, 41, 116);
+    padding: 10px;
+    text-align: center;
+    color: rgb(224, 212, 212);
+}
+section{
+    background-color: rgb(222, 143, 222);
+    color: black;
+    float: left;
+    width: 30px;
+    height: 55px;
+    padding: 40px;
+    text-align: center;
+}
+main{
+    background-color: rgb(250, 241, 241);
+    color: black;
+    float: right;
+    padding: 20px;
+    width: 50%;
+    height: 30%; 
+    text-align: center;
+   margin-bottom: 90px;
+}
+footer{
+    background-color: rgb(246, 106, 246);
+    padding: 20px; 
+	text-align: center;
+    margin-top: 44%;
+	color: black; 
+
+}
