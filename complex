@@ -1,0 +1,102 @@
+
+HTML CODE -----
+  
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Layout</title>
+    <link rel="stylesheet" href="./complex.css">
+</head>
+<body>
+        <div class="complex-1">
+        <header>Header</header>
+        <nav>Navigation Bar</nav>
+        
+        
+        <div class="flex-container">
+
+            <main>
+
+                Slideshow
+            </main> 
+            
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div> 
+          </div>
+        </div>
+        </div>
+        <Footer>Footer</footer>
+</body>
+</html>
+
+
+  CSS CODE -----
+
+*{
+     padding:10px;
+     text-align: center;
+     margin-left: 70px;   
+}  
+header{
+     background-color: rgb(45, 40, 40);
+     color: rgb(241, 244, 247);
+     font-family: Arial, Helvetica, sans-serif;
+     padding: 35px;
+     margin: 10px;
+     width: 595px;
+     margin-left: 30px;
+     text-align: center;
+}
+nav{
+    background-color: rgb(143, 136, 136);
+    color:rgb(241, 244, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin: 10px;
+    width: 658px;
+    margin-left:28px;
+    text-align: center;
+}
+main{
+   background-color: rgb(70, 64, 64);
+   color: rgb(241, 244, 247);
+   padding:20px;
+   font-family: Arial, Helvetica, sans-serif;
+   box-sizing: border-box; 
+   margin-left: 10px;
+   width: 630px;
+   height: 130px;
+   text-align: center;
+} 
+.flex-container{
+    width: 650px;
+    height: 285px;
+    margin-right: 20%;
+    background-color: rgb(195, 187, 187);
+    margin-left: 30px;
+}
+    .flex-container > div{   
+        padding: 10px;
+        margin: 20px;
+        width: 154px;
+        height: 100px;
+        display: inline-block; 
+        background-color:  rgb(241, 244, 247);
+  } 
+  footer{
+    background-color:rgb(70, 64, 64);
+    color: rgb(241, 244, 247);
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin: 5px;
+    width: 663px;
+    margin-left: 107px;
+    text-align: center;
+  } 
