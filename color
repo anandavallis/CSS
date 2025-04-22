@@ -1,0 +1,91 @@
+    HTML CODE ----
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./color.css">
+</head>
+<body>
+    
+            <div class="flex-container">
+
+        <div id="one"> < header ></div>
+        <div id="two"> < nav ></div>
+        <div id="three"> < main  ></div>
+        <div id="four"> < aside  ></div>
+        <div id="five"> < section ></div>
+        <div id="six"> < aside> </div>
+        <div id="seven"> < footer ></div> 
+            </div>
+
+</body>
+</html>
+
+
+
+
+      CSS CODE -----
+
+
+      .flex-container { 
+      display: grid; 
+      grid-template-columns:  repeat(3, 1fr);  
+      grid-template-rows: repeat(2,50px); 
+      
+      gap: 10px; 
+      grid-template-areas: 'header header header' 
+                           'nav nav nav' 
+                           'main aside aside' 
+                           'main section section'
+                           'footer footer footer'; 
+                           width: 400px;
+                           padding-left: 35%;
+                           margin-top: 40px;
+    }
+    .flex-container > div { 
+    background-color: rgb(195, 199, 201);
+      font-size: 20px; 
+    }   
+    #one { 
+      grid-area: header; 
+      text-align: center;
+      padding-top: 10px;
+    } 
+    #two { 
+     grid-area: nav;
+     text-align: center; 
+     padding-top: 10px;
+    }
+    #three { 
+      grid-area: main; 
+      text-align: center;
+      width: 190px;
+      height: 230px;
+      padding-top: 30px;
+    
+    }     
+    #four { 
+      grid-area: aside; 
+      text-align: center;
+  
+    } 
+    #five { 
+      grid-area: section; 
+      text-align: center;
+      padding-top: 30px;
+    }    
+    #six { 
+      grid-area: aside; 
+      text-align: center;
+      padding-top:30px ;
+    }
+    #seven{
+      grid-area: footer;
+      text-align: center;
+      padding: 20px;
+    }
+    
