@@ -1,0 +1,300 @@
+
+HTML CODE ----
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Layout</title>
+    <link rel="stylesheet" href="./uilayout.css">
+</head>
+<body>
+    <h1>Karka UI Layout</h1>
+   <h5>Develop your skills by our tech</h5>
+
+    <nav>
+        <ul>
+            <li>Link</li>
+            <li>Link</li>
+            <li>Link</li>
+        </ul>
+        <h2>Link</h2>
+    </nav>
+
+    <div class="flex">
+         <div class="left-side"> 
+          <header>Title Heading</header>
+          <h6>
+            Title Description, Dec 7, 2017
+          </h6>
+
+        <main>
+              Image
+         </main>
+          <p>
+            Some Text..<br><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque adipisci sapiente odio ducimus veritatis quisquam 
+            repudiandae vel exercitationem quos nihil.
+          </p>
+        </div>
+    </div>      
+      <br><br>
+        <div class="container">
+          <div class="left-side-2">
+
+            <aside>
+              Title Heading
+            </aside>
+          
+           <h6>
+             Title Description, Dec 7,2017
+            </h6> 
+      
+            <section>
+              Image
+            </section> 
+  
+           <p>Some Text..
+              <br><br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque adipisci sapiente odio, placeat ratione ducimus veritatis quisquam repudiandae vel exercitationem quos nihil.  
+            </p>
+          
+
+        <footer>
+          Footer
+        </footer> 
+      </div>
+    </div> 
+
+        <div class="container-1">
+          <div class="right-side">
+  
+            <article>About Me</article>
+            <menu> 
+              Image
+            </menu>
+            <p>
+              Some text me dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>  
+        <br><br>
+       
+     <div class="container-2">
+      <div class="right-side-2">
+
+        <summary>
+          Popular Post
+        </summary>
+    
+       <form>
+       Image<br><br><br>
+       Image<br><br><br>
+       Image<br><br>
+      </form>  
+
+       <div class="container-3">
+
+        <figcaption>
+            Follow me 
+        </figcaption>
+      
+        <p>
+            Some text.
+            </p>       
+</div>  
+       </div>   
+      </div>
+    </div> 
+</body>
+</html> 
+
+
+CSS CODE ----
+
+
+*{
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    
+}
+h1{
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    font-weight: 900;
+    text-align: center;
+}
+ h5{
+    text-align: center;
+    font-size: small;
+    margin-bottom: 20px;
+} 
+h6{
+    margin-left: 20px;
+    font-weight: bold;
+    background-color: rgb(245, 248, 248);
+}
+nav{
+    background-color: rgb(15, 14, 14);
+    color: rgb(244, 244, 244); 
+    padding: 10px;
+    margin: 10px;
+    width: 95%;
+}
+li,ul,h2{
+    background-color:  rgb(15, 14, 14);
+    display: inline;
+    padding: 5px;
+    margin-left: 5px;
+}
+h2{
+    margin-left: 70%;
+} 
+  header{
+    padding: 5px;
+    margin: 5px;
+     color: rgb(7, 7, 7);
+     font-family: sans-serif;
+     font-size: larger;
+     font-weight: bolder;
+}    
+.flex {
+    display: flex; 
+    background-color: rgb(245, 248, 248);
+    color: rgb(6, 6, 6);
+    gap: 20px; 
+    padding: 5px;  
+    margin: 5px;
+    width: 870px;
+    height:240px;
+  }
+  main{
+    background-color: rgb(141, 146, 146);
+    color: rgb(9, 8, 8);
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    width: 840px;
+    height: 95px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    background-color: rgb(245, 248, 248);
+}
+.container-1{
+    position: absolute;
+   top: 23%;
+   left: 77%;
+   float:right;
+    background-color:rgb(245, 248, 248);
+    padding: 10px;
+    width: 218px;
+    height: 143px;
+    
+}
+  article{
+    background-color:  rgb(245, 248, 248);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: larger;
+     font-weight: 600;
+      padding: 10px;
+     margin: 10px;    
+}
+   menu{
+    background-color:  rgb(141, 146, 146);
+    color: rgb(9, 8, 8);
+    width:175px;
+    height: 25px; 
+    padding: 10px;
+    margin: 5px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    display: flex;
+    position: absolute;
+    top: 66% ;
+    background-color: rgb(245, 248, 248);
+    width: 880px;
+    height:240px;
+    margin: 5px;
+}
+aside{
+    background-color:   rgb(245, 248, 248);
+      padding: 5px;
+      margin: 5px;
+     color: rgb(7, 7, 7);
+     font-family: sans-serif;
+     font-size: larger;
+     font-weight: bolder;
+}   
+section{
+     background-color: rgb(141, 146, 146);
+    color: rgb(9, 8, 8);
+   padding: 10px;
+   margin: 10px;
+    box-sizing: border-box; 
+    width: 840px;
+    height: 95px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container-2{
+    position: absolute;
+    top: 52%;
+    left: 77%;
+    float:right;
+    background-color: rgb(245, 248, 248); 
+    width: 240px;
+    height: 230px; 
+}  
+ summary{
+    background-color:  rgb(245, 248, 248);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: larger;
+     font-weight: 600;
+     padding: 10px;
+     margin: 10px;
+} 
+ form{
+    background-color:  rgb(141, 146, 146); 
+    color: rgb(9, 8, 8);
+    width: 190px;
+    height: 140px; 
+    padding: 5px;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+  .container-3{
+    position: absolute;
+    top: 104%;
+    right: 1%;
+    float:right;
+    background-color: rgb(245, 248, 248); 
+    width: 240px;
+    height: 70px;
+  }  
+  figcaption{
+    background-color:  rgb(245, 248, 248);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    padding: 5px;
+    margin: 5px;  
+}    
+footer{  
+    background-color: rgb(141, 146, 146);
+    color: rgb(9, 8, 8);
+    padding: 10px;
+    width: 128%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
